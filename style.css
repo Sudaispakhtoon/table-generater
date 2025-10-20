@@ -1,0 +1,35 @@
+body {
+  background-color: #fdf6e3;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgb(248, 205, 11);
+}
+label[for="table"], label[for="range"] {
+  background: #048af8;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  background: #3541e5;
+  color: rgb(182, 12, 12);
+}
+th, td {
+  padding: 10px 14px;
+  border: 1px solid #10e244;
+  text-align: left;
+}
+th {
+  background-color: #b71c1c;
+  color: #e01ed0;
+}
